@@ -32,22 +32,34 @@ public class Main {
     //        boolean answer = DecimalComparator.areEqualByThreeDecimalPlaces(-3.123, 3.123);
     //        System.out.println(answer);
     //    }
-    //}
 
 // Equal Sum Checker
     //    public static void main(String[] args) {
     //        boolean sum = EqualSumChecker.hasEqualSum(1, -1, 0);
     //        System.out.println(sum);
     //    }
-    //}
 
-    // Teen Number Checker
+// Teen Number Checker
+    //    public static void main(String[] args) {
+    //        boolean teen = TeenNumberChecker.hasTeen(23, 32, 42);
+    //        System.out.println(teen);
+    //
+    //        boolean teenNumber = TeenNumberChecker.isTeen(13);
+    //        System.out.println(teenNumber);
+    //
+    //    }
+
+// Method Overloading
+
     public static void main(String[] args) {
-        boolean teen = TeenNumberChecker.hasTeen(23, 32, 42);
-        System.out.println(teen);
 
-        boolean teenNumber = TeenNumberChecker.isTeen(13);
-        System.out.println(teenNumber);
+        double centimeters = MethodOverloading.calcFeetAndInchesToCentimeters(3, 7);
+        System.out.println(centimeters);
+        double newCentimeters = MethodOverloading.calcFeetAndInchesToCentimeters(51);
+        System.out.println(newCentimeters);
 
     }
+
+
+
 }
