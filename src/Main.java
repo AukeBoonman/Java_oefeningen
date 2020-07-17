@@ -73,14 +73,42 @@ public class Main {
 
 // Area Calculator
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//        System.out.println(AreaCalculator.area(5.0));
+//        System.out.println(AreaCalculator.area(-1));
+//        System.out.println(AreaCalculator.area(5.0, 4.0));
+//        System.out.println(AreaCalculator.area(-1, 4));
+//
+//    }
 
-        System.out.println(AreaCalculator.area(5.0));
-        System.out.println(AreaCalculator.area(-1));
-        System.out.println(AreaCalculator.area(5.0, 4.0));
-        System.out.println(AreaCalculator.area(-1, 4));
 
-    }
+
+
+// Minutes to Years and Days Calculator
+
+//    public static void main(String[] args) {
+//        MinutesToYearsAndDaysCalculator.printYearsAndDays(561600);
+//    }
+
+
+
+
+// Equality Printer
+
+//    public static void main(String[] args) {
+//        EqualityPrinter.printEqual(-1, 2, 3);
+//    }
+
+
+
+// Playing Cat
+
+//    public static void main(String[] args) {
+//        boolean answer = PlayingCat.isCatPlaying(false, 35);
+//        System.out.println(answer);
+//    }
+
 
 
 }
