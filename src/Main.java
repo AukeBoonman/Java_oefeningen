@@ -51,15 +51,36 @@ public class Main {
 
 // Method Overloading
 
+//    public static void main(String[] args) {
+//
+//        double centimeters = MethodOverloading.calcFeetAndInchesToCentimeters(6, 11);
+//        System.out.println(centimeters);
+//        double newCentimeters = MethodOverloading.calcFeetAndInchesToCentimeters(51);
+//        System.out.println(newCentimeters);
+//
+//    }
+
+// Seconds and Minutes
+
+//    public static void main(String[] args) {
+//
+//        System.out.println(SecondsAndMinutes.getDurationString(183,30));
+//        System.out.println(SecondsAndMinutes.getDurationString(3864));
+//        System.out.println(SecondsAndMinutes.getDurationString(-41));
+//        System.out.println(SecondsAndMinutes.getDurationString(65, 9));
+//
+//    }
+
+// Area Calculator
+
     public static void main(String[] args) {
 
-        double centimeters = MethodOverloading.calcFeetAndInchesToCentimeters(3, 7);
-        System.out.println(centimeters);
-        double newCentimeters = MethodOverloading.calcFeetAndInchesToCentimeters(51);
-        System.out.println(newCentimeters);
+        System.out.println(AreaCalculator.area(5.0));
+        System.out.println(AreaCalculator.area(-1));
+        System.out.println(AreaCalculator.area(5.0, 4.0));
+        System.out.println(AreaCalculator.area(-1, 4));
 
     }
-
 
 
 }
